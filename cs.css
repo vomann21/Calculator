@@ -1,0 +1,103 @@
+.container{
+  display: flex;
+  border: 2px solid black;
+  flex-direction: column;
+  height: 65vh;
+  width: 53vh;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: rgba(31, 27, 27, 0.937);
+  margin: auto;
+  border-radius: 3px;
+}
+
+.buttons{
+  margin: auto;
+}
+
+.button{
+  background-color: rgb(111, 193, 211);
+    border: 2px solid black;
+    margin: 4px;
+    width: 65px;
+    height: 50px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+button:active{
+  background-color: rgb(61, 61, 57);
+}
+.button-clear{
+  background-color: rgb(111, 193, 211);
+  border: 2px solid black;
+  margin: 4px;
+  width: 65px;
+    height: 50px;
+    border-radius: 7px;
+    font-size: 15px;
+    cursor: pointer;
+}
+button-clear:active{
+  background-color: rgb(61, 61, 57);
+}
+.button-bs {
+  background-color: rgb(111, 193, 211);
+  border: 2px solid black;
+  margin: 4px;
+  width: 65px;
+  height: 50px;
+  border-radius: 7px;
+  font-size: 15px;
+  cursor: pointer;
+}
+button-bs:active{
+  background-color: rgb(61, 61, 57);
+}
+.button-op {
+  background-color: rgb(111, 193, 211);
+    border: 2px solid black;
+    margin: 4px;
+    width: 65px;
+    height: 50px;
+    border-radius: 7px;
+    font-size: 17px;
+    cursor: pointer;
+}
+button-op:active{
+  background-color: rgb(61, 61, 57);
+}
+.button-calc{
+  background-color: rgb(189, 15, 18);
+    border: 2px solid black;
+    margin: 4px;
+    width: 65px;
+    height: 50px;
+    border-radius: 7px;
+    font-size: 15px;
+    cursor: pointer;
+}
+#display{
+  margin-top: 4px;
+  text-align: right;
+  height: 70px;
+  width: 85%;
+  line-height: 70px;
+  padding: 16px 8px;
+  font-size: 25px;
+  background-color: aliceblue;
+  border-radius: 7px;
+}
+
+#equals{
+  background-color: rgb(189, 15, 18);
+}
+#equals:active{
+  background-color: rgb(175, 175, 166);
+}
+
+.head{
+  text-align: center;
+  color: rgb(111, 193, 211);
+}
